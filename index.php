@@ -1,6 +1,6 @@
 <?php
 
-$bdd =  new PDO ('mysql:host=localhost;dbname=tp_openclassroom', 'root', 'zekri59100');
+$bdd =  new PDO ('mysql:host=localhost;dbname=tp_openclassroom', '......', '.........');
 $reponse = $bdd->query('SELECT * FROM mini_chat ORDER BY id DESC LIMIT 0,10 ' );
 
 ?>
